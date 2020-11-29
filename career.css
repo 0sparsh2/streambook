@@ -1,0 +1,324 @@
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {}
+  }
+  
+  
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+  
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+  
+  /*
+  .nav-container {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: grey;
+    opacity: 70%;
+    color: white;
+    z-index: 999999;
+    overflow: hidden;
+  }
+  
+  nav {
+    width: 80%;
+    margin: auto;
+    min-height: 0vh;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 99999;
+  
+  }
+  
+  
+  
+  nav ul {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    list-style: none;
+    font-size: 2rem;
+  
+  }
+  
+  #id {
+    transform: scale(1.5);
+  }
+  
+  a {
+    color: white;
+  }
+  
+  nav #logo {
+    flex: 3;
+    opacity: 100% !important;
+  
+  }
+  
+  nav li {
+    padding: 0px 10px 0px 0px;
+  }
+  
+  nav li:hover {
+    display: block;
+    transform: scale(1.5);
+  }
+  
+  
+  nav li:nth-child(4):hover {
+    transform: scale(1);
+  }
+  */
+  
+  
+
+  
+  * {
+    outline: none;
+  }
+  
+  .showcase {
+  
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    /*background-color: #042f66;*/
+    padding: 0px;
+  }
+  
+  .showcase img {
+    object-fit: fill;
+    margin: 0;
+    padding: 0;
+    opacity: 100%;
+    width: 100%;
+  
+  }
+  
+  
+  .home {
+    color: white;
+    text-align:left;
+    margin-left: 10vw;
+    padding: 0;
+    position: absolute;
+    top:20vw;
+    animation: 3s ease-out 0s 1 appear;
+  }
+  
+  .home h1{
+    font-size: 10vmin;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  .home h3{
+    font-size: 3vmin;
+  }
+  
+  /*.choose{
+    position: relative;
+    margin-top: -2%;
+    margin-left:50%; 
+    height: 50px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+  }
+  .choose ul{
+  
+  }
+  .choose li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+  }
+  */
+  
+  .choose{
+    position: relative;
+    width:80%;
+    margin-left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    box-shadow: 0 10px 32px 0 rgba(0,30,60,.12);
+    padding: 40px;
+  }
+  
+  
+  .choose.select{
+    /*padding: 20px 10px 20px 10px;*/
+    transform: scale(1.2);
+    }
+  
+  .selectdesign{
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 5px;
+  }
+  .selectdesign input{
+    background-color: wheat;
+  }
+  
+  .selectdesign select{
+    display: block;
+    background-color: wheat;
+    appearance:none;
+    border:none;
+    color: grey;
+    width: 174px;
+    height: 25px;
+    /*vertical-align: middle;*/
+  }
+  
+  .team{
+    background-color: white;
+    margin-top: auto;
+    padding: 150px;
+  }
+  
+  .headteam h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+  }
+  #teamdeets{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:100px; 
+  }
+  
+  
+  #teamdata p{
+    font-size: 6rem;
+  }
+  
+  #teamdata{
+    display: inline-block;
+    width: 50%;
+  }
+  #teamgif{
+    display: inline-block;
+  }
+  
+  
+  
+  .scrollitems {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .active {
+    cursor: grabbing;
+    transform: scale(1);
+  }
+  
+  .active .item{
+    box-shadow: 3px 0 11px 0;
+  }
+  
+  .item {
+    display: inline-block;
+    min-height: 250px;
+    min-width: 400px;
+    margin: 2em 1em;
+    border-radius: 20px;
+  }
+  
+  .item img{
+    object-fit: fill;
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 500px) {
+  .item{
+    min-height: 200px;
+    min-width: 200px;
+  }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .choose{
+     transform: translate(-50%,0%);
+     width:100vw;
+    }
+    .choose.select{
+      width: 100vw;
+      float: left;
+      margin-left: 40px; 
+  
+    }
+    .selectdesign{
+      margin: 5px;
+    }
+  
+  
+  .choose .select:nth-child(2){
+    padding: 20px 0px 20px 0px;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#sign{
+    
+    margin: 0;
+    float: right;
+}
+#welcome{
+   text-align: center;
+    margin: 0;
+    color: white;
+}
+.stmbk{
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+}
+.sign-btn{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+
+}
+.sign-btn:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+div>.sign-btn{
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#signset{
+    display: block;
+    
+}
+#sign{
+    padding: 10px;
+}
+
+.btn{
+    transform:translate(0,-5px);
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+/*#splash{
+    position: absolute;
+    height: 100%;
+    width: 20vw;
+    border-radius: 50%;
+}*/
+#previewstyle{
+    background-color: none;
+    border-radius: 50%;
+    height: 230px;
+    width:230px;
+    text-align: center;
+    margin-left: 50%;
+    box-shadow: 4px 0px 10px 0px;
+    transform: translate(-50%,30px);
+}
+
+#face{
+    position:relative;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 30px 0px;
+    transform: translate(0,-29px);
+}
+
+
+#p1{
+    text-align: center; 
+    position: relative; 
+    padding: 0;
+    
+}
+#p2{
+    background-color: whitesmoke;
+    height: 100%;
+    position: relative;
+    width: 50%;
+    margin-top: 0px;
+    text-align: justify;
+    box-shadow: 3px 0px 20px 0px black;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+
+#userdetails{
+    background-color: whitesmoke;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 3px 0px 20px 0px black;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#wltitle{
+    text-align: center;
+    color: white;
+}
+.watchlist{
+    margin-top: 100px;
+    
+}
+
+table td {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 3rem;
+    padding:5px;
+    border:2px solid black;
+    
+}
+
+
+table{
+    border: 2px black;
+    margin-top: 30px;
+}
+
+
+#trash{
+    margin-left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    display: block;
+    background: none;
+    border: none;
+}
+#trash:hover{
+    color: red;
+}
+#trash~select{
+    color: green;
+}
+
+.bio{
+    margin-top: 50px;
+}
+
+#profdetails{
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+      }
+      #p2{
+          width: 100%;
+          margin-top:0px ;
+          height: 300px;
+      }
+    .bio{
+        margin-top: 0px;
+    }
+    #profdetails{
+        text-align: center;
+    }
+
+}
+
+#feedback{
+    bottom:20px;
+    right: 20px;
+    position: fixed;
+}
+
+#feedback-fill{
+    display: block;
+}
+
+#feedback-btn label{
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#feedbacklabel{
+    background: linear-gradient(to bottom,  #54bc3e 0%,#aee850 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bc3e', endColorstr='#aee850',GradientType=0 );
+  border: 1px solid #1d6511;
+  border-radius: 15px;
+}

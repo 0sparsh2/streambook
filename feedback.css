@@ -1,0 +1,24 @@
+
+#feedback{
+    bottom:20px;
+    right: 20px;
+    position: fixed;
+}
+#feedback-btn{    
+}
+#feedback-fill{
+    display: block;
+}
+
+#feedback-btn label{
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#feedbacklabel{
+    background: linear-gradient(to bottom,  #54bc3e 0%,#aee850 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bc3e', endColorstr='#aee850',GradientType=0 );
+  border: 1px solid #1d6511;
+  border-radius: 15px;
+}

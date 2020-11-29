@@ -1,0 +1,108 @@
+
+  
+ #footerhtml{
+    font-size: 62.5%;
+    
+  }
+  
+  #footer h2 {
+    font-size: 2rem;
+  }
+  
+  #footer h3 {
+    font-size: 1.5rem;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+ #footer{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #D3D3D3;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -99999;
+  }
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    margin: 200px 0px 0px 0px;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footerelements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:0;
+    padding: 15px;
+  }
+  
+  .footerelements div{
+    width: 30vw;
+  }
+  
+  .contact h2{
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    left: 60px;
+    bottom: 20px;
+  }
+  
+  .logoandothers{
+    font-size: 2rem;
+    color: white;
+  }
+  .logoandothers h1{
+    font-size: 6rem;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .logoandothers a{
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  
+  .aboutend{
+    font-size: 2rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .cr{
+    position: absolute;
+    margin-bottom: 0;
+    width: 100vw;
+    text-align: center;
+    bottom: 0px;
+    background-color: #50729F;
+  }
+  
+  .cr p{
+    padding: 10px;
+    font-size: 2rem;
+    color: wheat;
+  
+  }

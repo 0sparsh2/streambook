@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #eee;
+    font-weight: 300px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+h6 {
+    font-weight: 300;
+}
+
+header {
+    margin-top: 0;
+    width: 100vw;
+    background-color: white;
+    color: black;
+}
+
+.completeapp {
+    display: flex;
+    padding: 0px 20px;
+    background-color: white;
+    width: 100vw;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+}
+
+.completeapp button {
+    background-color: white;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.completeapp label {
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.completeapp label h3 {
+    font-weight: 330;
+    font-stretch: expanded;
+}
+
+.completeapp button h1 {
+    padding-left: 10px;
+}
+
+form {
+    width: 684px;
+    margin: auto;
+
+    position: relative;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    /*border:black;*/
+}
+
+table,
+td,
+th,
+tr {
+    border: black;
+}
+
+
+input {
+    width: 90%;
+    border: none;
+    height: 30px;
+}
+
+
+.formp1 {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    margin: 16px 0px;
+    background-color: white;
+}
+
+
+.formp1 table tr:nth-child(2) h5 {
+
+    margin: 0 0 5px 0;
+}
+
+.formp1 table tr:nth-child(2) h4 {
+
+    margin: 10px 0px;
+}
+
+.formp1 table tr:nth-child(3) h4 {
+
+    margin: 25px 0px 15px 0;
+}
+
+.formp1 table tr:nth-child(3) h5 {
+
+    margin: 5px 0;
+}
+
+.formp1 table tr:nth-child(3) h6 {
+
+    margin: 10px 0;
+}
+
+.formp1 table div {
+    padding-left: 10px;
+
+}
+
+.formp1 table tr:nth-child(5) h5 {
+
+    margin: 0 0 10px 0;
+}
+
+.formp1 table tr:nth-child(6) h6 {
+
+    margin-bottom: 10px;
+}
+
+.formp1 table td h6 {
+
+    margin-bottom: 10px;
+}
+
+#resumeLine {
+    display: none;
+}
+
+#preferredName {
+    display: none;
+}
+
+select {
+    height: 30px;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.formp2 {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    margin: 36px 0px;
+    background-color: white;
+}
+
+.formp2 table div {
+    padding-left: 10px;
+
+}
+
+.radio {
+
+    height: auto;
+
+}
+
+.formp2 table td h6 {
+
+    margin-bottom: 10px;
+}
+
+#degreestatus option {
+    height: 30px;
+}
+
+.edu {
+    display: none;
+}
+
+.formp3 {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    margin: 16px 0px;
+    background-color: white;
+}
+
+.formp3 table div {
+    padding-left: 10px;
+
+}
+
+.formp4 {
+    display: flex;
+    vertical-align: middle;
+}
+
+.formp4 div h3 {
+    margin: 0;
+    padding: 5px;
+    ;
+}
+
+.formp4 div {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.formp4 button {
+    width: 80px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
